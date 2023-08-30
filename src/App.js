@@ -4,7 +4,7 @@ import CartContext from "./store/cart-context";
 import FilterMeals from "./components/FilterMeals/FilterMeals";
 import Cart from "./components/Cart/Cart";
 import { mealsStockData } from "./asset/data";
-import Header from "./Header";
+import Header from "./components/UI/Header/Header";
 
 //define a cartReducer
 const cartReducer = (state, action) => {
