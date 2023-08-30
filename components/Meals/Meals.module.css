@@ -1,0 +1,7 @@
+.Meals {
+  /* position: absolute; */
+  top: 450rem;
+  bottom: 120rem;
+  overflow: auto;
+  position: fixed;
+}
