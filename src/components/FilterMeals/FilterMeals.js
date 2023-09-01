@@ -22,7 +22,7 @@ const FilterMeals = (props) => {
 
   const inputChangeHandler = (e) => {
     // props.onFilter(e.target.value);
-    setKeyword(e.target.value.trim());
+    setKeyword(e.target.value);
   };
 
   return (
